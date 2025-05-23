@@ -1,0 +1,46 @@
+.infotop {
+    margin-top: 10px;
+}
+
+.contleft {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    vertical-align: top;
+    margin-right: 3%;
+}
+
+.contright {
+    display: inline-block;
+    vertical-align: middle;
+    width: 46%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.premiosleft {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+}
+
+.premiosright {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.listado li {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+    margin-bottom: 20px;
+}

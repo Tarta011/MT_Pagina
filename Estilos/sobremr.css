@@ -1,0 +1,31 @@
+
+.contleft {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    box-sizing: border-box;
+    width: 65%;
+    padding-right: 50px;
+}
+
+.aside {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 34%;
+    padding-left: 60px;
+}
+
+.bloque{
+    text-align: center;
+}
+
+.cita {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+}

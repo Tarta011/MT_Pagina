@@ -1,0 +1,35 @@
+.actor{
+    margin-bottom: 50px;
+}
+
+.actor h2 {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    position: relative;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+    margin-bottom: 10px;
+}
+
+.infoactor {
+    text-align: center;
+}
+
+.contleft {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 80%;
+    padding-right: 50px;
+}
+
+.actor img {
+    display: inline-block;
+    width: 19%;
+    height: 320px;
+    object-fit: cover;
+}

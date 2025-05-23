@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: fuenteRunner;
+    src: url(../Fuentes/MAZE_RUNNER/MAZE_RUNNER.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding: 40px;
+}
+
+.titular {
+    font-size: 100px;
+    font-family: fuenteRunner;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu ul {
+    font-size: 19px;
+    font-family: fuenteRunner;
+    position: relative;
+    padding: 0;
+    margin-top : 100px;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+        url(../imagenes/main\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px;
+}
+
+.texto {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    position: relative;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+.subtitulos {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    position: relative;
+    font-size: 40px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+.subtitulos2 {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    text-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;
+}
+
+.imagen2 {
+    position: relative;
+    border: 5px solid black;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+}
+
+.txtfooter {
+    font-size: 30px;
+    font-family: fuenteRunner;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer ul {
+    font-size: 15px;
+    font-family: fuenteRunner;
+    position: relative;
+    justify-content: center;
+    padding: 0;
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
