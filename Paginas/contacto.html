@@ -9,25 +9,62 @@
 <body class="body">
     <header class="header">
         <h1 class="titular">Maze Runner: Correr o Morir</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html" target="_self">Inicio</a></li>
-                <li><a href="./sobremr.html" target="_self">Sobre la película</a></li>
-                <li><a href="./reparto.html" target="_self">Reparto</a></li>
-                <li><a href="./grabacion.html" target="_self">Produccion y estudio de grabacion</a></li>
-                <li><a href="./premios.html" target="_self">Curiosidades y premios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html" target="_self">Inicio</a></li>
+            <li><a href="./sobremr.html" target="_self">Sobre la película</a></li>
+            <li><a href="./reparto.html" target="_self">Reparto</a></li>
+            <li><a href="./grabacion.html" target="_self">Produccion y estudio de grabacion</a></li>
+            <li><a href="./premios.html" target="_self">Curiosidades y premios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
     <main>
         <h2 class="subtitulos2">¿Tenes algún aporte o algún comentario que quieras agregar al respecto? <br> No dudes en contactarnos</h2>
-        <section class="cajacontact">
-            <div class="formulario">Ingrese su correo electronico</div>
-            <div class="formulario">Ingrese su nombre y apellido</div>
-            <div class="formulario">Ingrese el asunto</div>
-            <div class="mensaje">Ingrese su mensaje</div>
-        </section>
+        <form class="cajacontact" action="./confirmacion.html">
+            <fieldset class="formulario">
+                <legend><label class="texto">Datos Personales</label></legend>
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input class="formulario" type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre">
+                </div>
+                <div class="campo">
+                    <label for="apellido">Apellido</label>
+                    <input class="formulario" type="text" name="apellido" id="apellido" required placeholder="Ingrese su apellido">
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo Electronico</label>
+                    <input class="formulario" type="email" name="correo" id="correo" required placeholder="Ingrese su correo electronico (No te olvides del @)">
+                </div>
+            </fieldset>
+            <fieldset class="formulario">
+                <legend><label class="texto">Aporte</label></legend>
+                <div class="campo">
+                    <label for="asunto">Asunto</label>
+                    <input class="formulario" type="text" name="asunto" id="asunto" required placeholder="¿Cual es el asunto?">
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="mensaje" name="mensaje" id="mensaje" required cols="500" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+            </fieldset>
+            <fieldset class="formulario">
+                <label class="campo">¿Le parecio util esta página?</label>
+                    <div class="encuesta">
+                        <label for="">No
+                            <input type="radio" name="encuesta">
+                        </label>
+                        <label for="">Mas o menos
+                            <input type="radio" name="encuesta">
+                        </label>
+                        <label for="">Si
+                            <input type="radio" name="encuesta">
+                        </label>
+                    </div>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
     </main>
     <footer class="footer">
             <h3 class="txtfooter">Redes oficiales de Maze Runner</h3>
