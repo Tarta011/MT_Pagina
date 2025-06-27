@@ -1,0 +1,47 @@
+header:hover .mancha {
+    opacity: 0.5;
+}
+
+.menu ul a:hover {
+    color: #12da00;
+}
+
+footer ul a:hover {
+    color: #6B7FF2;
+    transform: scale(1.2);
+}
+
+iframe:hover, img:not(.mancha):hover {
+    transform: scale(1.03);
+    transition: transform 0.4s ease;
+    filter: brightness(1.2);
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgb(218, 108, 108);
+    transition: 0.3s ease;
+}
+
+.txtfooter::after, .txtfooter::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #15f33a, #012909);
+    bottom: -10px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.2s ease-out;
+}
+
+.txtfooter::before {
+    top: -15px;
+    transform-origin: left;
+}
+
+.txtfooter:hover::after, .txtfooter:hover::before {
+    transform: scaleX(1);
+}
