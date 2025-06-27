@@ -11,6 +11,12 @@
     padding-right: 50px;
 }
 
+.ost {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 aside {
     width: 34%;
     padding-left: 60px;
