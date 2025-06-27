@@ -1,36 +1,34 @@
 .infotop {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
     margin-top: 10px;
 }
 
 .contleft {
-    display: inline-block;
-    box-sizing: border-box;
     width: 50%;
-    vertical-align: top;
-    margin-right: 3%;
 }
 
 .contright {
-    display: inline-block;
-    vertical-align: middle;
-    width: 46%;
-    text-align: center;
+    width: 50%;
+    text-align: right;
     padding-top: 60px;
 }
 
-.premiosleft {
-    display: inline-block;
-    vertical-align: middle;
-    width: 50%;
-    text-align: center;
+.premios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
 }
 
-.premiosright {
-    display: inline-block;
-    vertical-align: middle;
-    width: 48%;
-    text-align: left;
-    padding-left: 20px;
+.premiosleft, .premiosright {
+    width: 50%;
+}
+
+.premiosright h2{
+    font-size: 35px;
 }
 
 .listado li {

@@ -15,21 +15,19 @@
 }
 
 .infoactor {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
 }
 
 .contleft {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    box-sizing: border-box;
-    width: 80%;
+    width: 65%;
     padding-right: 50px;
 }
 
 .actor img {
-    display: inline-block;
-    width: 19%;
+    width: 550px;
     height: 320px;
     object-fit: cover;
 }

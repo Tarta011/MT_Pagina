@@ -86,7 +86,7 @@ main {
     position: relative;
     text-align: center;
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 40px;
     text-shadow: -1px -1px 0 black,
     1px -1px 0 black,
    -1px  1px 0 black,
@@ -94,6 +94,7 @@ main {
 }
 
 .imagen2 {
+    width: 100%;
     position: relative;
     border: 5px solid black;
 }

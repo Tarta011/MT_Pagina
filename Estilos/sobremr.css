@@ -1,17 +1,17 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
 
 .contleft {
-    display: inline-block;
-    vertical-align: top;
     text-align: left;
-    box-sizing: border-box;
     width: 65%;
     padding-right: 50px;
 }
 
-.aside {
-    display: inline-block;
-    vertical-align: top;
-    box-sizing: border-box;
+aside {
     width: 34%;
     padding-left: 60px;
 }
